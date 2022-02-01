@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always">
+    <serverData>
+      <paths name="root@10.154.63.47:30777">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/yepeng/exp2/1RobustDarts/SmoothDARTS" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@10.154.63.48:38399">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/yepeng/exp2/1RobustDarts/SmoothDARTS" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@10.154.63.48:38399 (1)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/yepeng/exp2/1RobustDarts/SmoothDARTS" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@10.154.63.52:20127">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/yepeng/exp2/1RobustDarts/Beta-DARTS" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
