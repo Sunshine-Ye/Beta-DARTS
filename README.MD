@@ -1,29 +1,9 @@
-# SmoothDARTS (SDARTS)
-Code accompanying the paper  
-[ICML'2020](https://icml.cc/Conferences/2020): ***Stabilizing Differentiable Architecture Search via Perturbation-based Regularization*** [paper](https://arxiv.org/abs/2002.05283)  
-Xiangning Chen, Cho-Jui Hsieh
-
-This code is based on the implementation of [DARTS](https://github.com/quark0/darts), [NAS-Bench-1Shot1](https://github.com/automl/nasbench-1shot1) and [RobustDARTS](https://github.com/MetaAnonym/RobustDARTS).
-
-![](fig.png)
-
-If you find this code useful in your research please cite
-
-```
-@misc{chen2020stabilizing,
-    title={Stabilizing Differentiable Architecture Search via Perturbation-based Regularization},
-    author={Xiangning Chen and Cho-Jui Hsieh},
-    year={2020},
-    eprint={2002.05283},
-    archivePrefix={arXiv},
-    primaryClass={cs.LG}
-}
-```
+# Paper Title: Beta-DARTS
 
 ## Datasets
-Instructions for acquiring PTB is [here](https://github.com/salesforce/awd-lstm-lm/blob/master/getdata.sh). 
-While CIFAR-10, CIFAR-100 and SVHN can be automatically downloaded by torchvision.
-To use NAS-Bench-1Shot1 to monitor the anytime test accuracy of NAS algorithms, please download this tfrecord:
+You can download CIFAR-10, CIFAR-100 and SVHN datasets by automatically download process using torchvision.
+Note that : 1) instructions for acquiring PTB is [here](https://github.com/salesforce/awd-lstm-lm/blob/master/getdata.sh). 
+2) to use NAS-Bench-1Shot1 to monitor the anytime test accuracy of NAS algorithms, please download this tfrecord:
 [https://storage.googleapis.com/nasbench/nasbench_only108.tfrecord](https://storage.googleapis.com/nasbench/nasbench_only108.tfrecord).
 Then insert its path to ```nasbench_analysis/eval_darts_one_shot_model_in_nasbench.py```
 
