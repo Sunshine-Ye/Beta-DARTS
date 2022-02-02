@@ -8,7 +8,7 @@ Data preparation: Please first download the 201 benchmark file and prepare the a
 
 Searching and Evaluation: ```python ./nasbench201/train_search.py```
 
-Please refer to line  of ./nasbench201/train_search.py to find 
+Note that we only use the training set when searching and retraining as DARTS. Please refer to line 135-139 of ./nasbench201/train_search.py to see the splitted training data.
 
 ## The Proposed Beta Decay Regularization
 Please refer to ./optimizers/darts/architect.py to find our proposed loss as follows:
