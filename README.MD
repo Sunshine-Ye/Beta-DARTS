@@ -11,5 +11,7 @@ Then insert its path to ```nasbench_analysis/eval_darts_one_shot_model_in_nasben
 
 ```Beta-DARTS: python ./nasbench201/train_search.py```
 
+## The Proposed Loss
+Please refer to ./optimizers/darts/architect.py (mlc function) to find our proposed loss.
 
 
