@@ -1,6 +1,6 @@
 # Beta-DARTS
 
-## Datasets
+## About
 This code is based on the implementation of [DARTS](https://github.com/quark0/darts), [NAS-Bench-201](https://github.com/D-X-Y/AutoDL-Projects), [NAS-Bench-1Shot1](https://github.com/automl/nasbench-1shot1) and [SmoothDARTS](https://github.com/xiangning-chen/SmoothDARTS).
 
 ## Searching and Evaluation on NAS-Bench-201 Space:
