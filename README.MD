@@ -16,4 +16,6 @@ Please refer to ./optimizers/darts/architect.py to find our proposed loss as fol
 
 ```def mlc_loss(self, arch_param):```
 
+Please be noted that our codes are based on DARTS an SmoothDARTS, and only “one line of code” （i.e. mlc loss）is added to make differentiable NAS methods much more robust and generalization.
+
 
