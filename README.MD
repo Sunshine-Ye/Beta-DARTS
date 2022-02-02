@@ -9,7 +9,7 @@ Then insert its path to ```nasbench_analysis/eval_darts_one_shot_model_in_nasben
 
 ## Architecture Training and Evaluation
 
-```Beta-DARTS: cd optimizers/darts && python train_search.py --search_space=1 --perturb_alpha=random```
+```Beta-DARTS: python ./nasbench201/train_search.py```
 
 
 
