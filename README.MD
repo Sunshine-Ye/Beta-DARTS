@@ -8,6 +8,8 @@ Data preparation: Please first download the 201 benchmark file and prepare the a
 
 Searching and Evaluation: ```python ./nasbench201/train_search.py```
 
+Please refer to line  of ./nasbench201/train_search.py to find 
+
 ## The Proposed Beta Decay Regularization
 Please refer to ./optimizers/darts/architect.py to find our proposed loss as follows:
 
