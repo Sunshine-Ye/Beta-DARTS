@@ -1,4 +1,4 @@
-# Paper Title: Beta-DARTS
+# Beta-DARTS
 
 ## Datasets
 You can download CIFAR-10, CIFAR-100 and SVHN datasets by automatically download process using torchvision.
